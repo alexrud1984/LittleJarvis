@@ -47,6 +47,12 @@ namespace LittleJarvis
             jarvis.ExeCommand("Send mail to somebody else with text 'something else'");
             jarvis.GetLog();
             Console.ReadKey();
+
+            Console.WriteLine();
+            jarvis.Example("call by skype");
+            jarvis.ExeCommand("Call by Skype to Elis");
+            jarvis.GetLog();
+            Console.ReadKey();
         }
     }
 }

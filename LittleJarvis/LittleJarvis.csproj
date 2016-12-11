@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Buffer.cs" />
+    <Compile Include="CallBySkype.cs" />
     <Compile Include="Command.cs" />
     <Compile Include="Executer.cs" />
     <Compile Include="IBuffer.cs" />

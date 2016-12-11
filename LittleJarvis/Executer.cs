@@ -8,30 +8,31 @@ namespace LittleJarvis
 {
     class Executer:IExecuter
     {
-        int logSize = 5; // remember last 5 commands in a log
-        MyQueue<string> logQueue;
-        Command[] com;
+        int logSize = 5;            // remember last 5 commands in a log
+        MyQueue<string> logQueue;   //will wright log in this queue
+        Command[] com;      
 
         public Executer()
         {
-            logQueue = new MyQueue<string> (logSize);
-            com = new Command[3];
+            logQueue = new MyQueue<string> (logSize);   
+            com = new Command[4];                       
             com[0] = new Switch();
             com[1] = new SendSMS();
             com[2] = new SendMail();
+            com[3] = new CallBySkype();
         }
 
         public void ExeCommand(string command)
         {
             bool commandDone = false;
             int i = 0;
-            do
+            do                                          //try with all commands from commands array until some command executed
             {
-                if (com[i].CanExec(command))
+                if (com[i].CanExec(command))            //check if can execute current command with recieved string 
                 {
-                    com[i].Action(command);
-                    logQueue.Enqueue(command);
-                    commandDone = true;
+                    com[i].Action(command);             //execute command
+                    logQueue.Enqueue(command);          //add log for curremt command
+                    commandDone = true;                 
                 }
                 i++;
             }
@@ -44,7 +45,7 @@ namespace LittleJarvis
 
         public void GetList()
         {
-            Console.WriteLine("Name    Pattern");
+            Console.WriteLine("Name       Pattern");
             foreach (Command c in com)
             {
                 Console.WriteLine("{0}      {1}", c.Name, c.Pattern);
