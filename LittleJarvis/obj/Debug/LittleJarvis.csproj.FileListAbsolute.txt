@@ -1,0 +1,12 @@
+D:\Projects\RudTask7\LittleJarvis\LittleJarvis\bin\Debug\LittleJarvis.exe.config
+D:\Projects\RudTask7\LittleJarvis\LittleJarvis\bin\Debug\LittleJarvis.exe
+D:\Projects\RudTask7\LittleJarvis\LittleJarvis\bin\Debug\LittleJarvis.pdb
+D:\Projects\RudTask7\LittleJarvis\LittleJarvis\obj\Debug\LittleJarvis.csprojResolveAssemblyReference.cache
+D:\Projects\RudTask7\LittleJarvis\LittleJarvis\obj\Debug\LittleJarvis.exe
+D:\Projects\RudTask7\LittleJarvis\LittleJarvis\obj\Debug\LittleJarvis.pdb
+D:\Projects\LittleJarvis\LittleJarvis\bin\Debug\LittleJarvis.exe.config
+D:\Projects\LittleJarvis\LittleJarvis\obj\Debug\LittleJarvis.exe
+D:\Projects\LittleJarvis\LittleJarvis\obj\Debug\LittleJarvis.pdb
+D:\Projects\LittleJarvis\LittleJarvis\bin\Debug\LittleJarvis.exe
+D:\Projects\LittleJarvis\LittleJarvis\bin\Debug\LittleJarvis.pdb
+D:\Projects\LittleJarvis\LittleJarvis\obj\Debug\LittleJarvis.csprojResolveAssemblyReference.cache
